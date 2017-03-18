@@ -74,7 +74,7 @@ public class VuforiaScanner : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("No QR code detected !");
+                    //Debug.Log("No QR code detected !");
                 }
             }
             catch (Exception e)

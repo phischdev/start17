@@ -95,7 +95,7 @@ namespace Vuforia
             // Disable rendering:
             foreach (Renderer component in rendererComponents)
             {
-                component.enabled = false;
+                //component.enabled = false;
             }
 
             // Disable colliders:

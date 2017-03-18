@@ -29,3 +29,6 @@ C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Temp\bin\Debug\Vuforia.Un
 C:\Users\Neptun\Documents\StartHack17\start17\himalaya\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Neptun\Documents\StartHack17\start17\himalaya\obj\Debug\Assembly-CSharp.dll
 C:\Users\Neptun\Documents\StartHack17\start17\himalaya\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Temp\bin\Debug\zxing.unity.dll
+C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Temp\bin\Debug\zxing.unity.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Temp\bin\Debug\zxing.unity.xml
