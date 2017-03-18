@@ -1,0 +1,10 @@
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\CS_Holo_Screen1.exe.config
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\CS_Holo_Screen1.exe
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\CS_Holo_Screen1.pdb
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\KeepAutomation.Barcode.Windows.dll
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.csprojResolveAssemblyReference.cache
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen.Form1.resources
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen.Properties.Resources.resources
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.csproj.GenerateResource.Cache
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.exe
+C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.pdb
