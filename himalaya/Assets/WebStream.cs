@@ -8,8 +8,9 @@ public class WebStream : MonoBehaviour {
 
 	public MeshRenderer frame;    //Mesh for displaying video
 
-	private string sourceURL = "http://192.168.1.73:8080/";
+	//private string sourceURL = "http://192.168.1.73:8080/";
 	//private string sourceURL = "http://phil:8080/";
+	private string sourceURL = "http://192.168.1.115:8080/";
 	private Texture2D texture; 
 	private Stream stream;
 
