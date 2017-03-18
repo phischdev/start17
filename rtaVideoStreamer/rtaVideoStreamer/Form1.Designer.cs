@@ -33,12 +33,12 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.sts = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.imgQR = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnRestart = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgQR)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -68,28 +68,21 @@
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sts,
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 414);
+            this.sts});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 709);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(530, 25);
+            this.statusStrip1.Size = new System.Drawing.Size(897, 25);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // sts
             // 
             this.sts.Name = "sts";
-            this.sts.Size = new System.Drawing.Size(357, 20);
+            this.sts.Size = new System.Drawing.Size(877, 20);
             this.sts.Spring = true;
             this.sts.Text = "Ready ..";
             this.sts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(153, 20);
-            this.toolStripStatusLabel1.Text = "By: Ragheed Al-Tayeb";
             // 
             // btnStart
             // 
@@ -103,7 +96,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(21, 146);
+            this.btnClose.Location = new System.Drawing.Point(21, 239);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(137, 71);
             this.btnClose.TabIndex = 4;
@@ -117,7 +110,7 @@
             this.imgQR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.imgQR.Location = new System.Drawing.Point(209, 3);
             this.imgQR.Name = "imgQR";
-            this.imgQR.Size = new System.Drawing.Size(318, 408);
+            this.imgQR.Size = new System.Drawing.Size(685, 703);
             this.imgQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imgQR.TabIndex = 5;
             this.imgQR.TabStop = false;
@@ -134,25 +127,36 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(530, 414);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(897, 709);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnRestart);
             this.panel1.Controls.Add(this.linkLabel1);
             this.panel1.Controls.Add(this.btnStart);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 408);
+            this.panel1.Size = new System.Drawing.Size(200, 703);
             this.panel1.TabIndex = 0;
+            // 
+            // btnRestart
+            // 
+            this.btnRestart.Location = new System.Drawing.Point(21, 146);
+            this.btnRestart.Name = "btnRestart";
+            this.btnRestart.Size = new System.Drawing.Size(137, 71);
+            this.btnRestart.TabIndex = 5;
+            this.btnRestart.Text = "QR and Tracking";
+            this.btnRestart.UseVisualStyleBackColor = true;
+            this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(530, 439);
+            this.ClientSize = new System.Drawing.Size(897, 734);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.statusStrip1);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -177,12 +181,12 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel sts;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.PictureBox imgQR;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnRestart;
     }
 }
 

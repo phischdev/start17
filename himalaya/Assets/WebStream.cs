@@ -10,24 +10,40 @@ public class WebStream : MonoBehaviour {
 
 	//private string sourceURL = "http://192.168.1.73:8080/";
 	//private string sourceURL = "http://phil:8080/";
-	private string sourceURL = "http://192.168.1.115:8080/";
+	//private string sourceURL = "http://192.168.1.115:8080/";
 	private Texture2D texture; 
 	private Stream stream;
+	public static WebStream instance;
 
 	public void Start(){
 		texture = new Texture2D(2, 2); 
 		// create HTTP request
-		HttpWebRequest req = (HttpWebRequest) WebRequest.Create( sourceURL );
+
+		instance = this;
+		//StartCoroutine (GetFrame ());
+	}
+
+	// return true if suceeded
+	public bool initWebStream (String url) {
+		HttpWebRequest req = (HttpWebRequest) WebRequest.Create( url );
 		//Optional (if authorization is Digest)
 		//req.Credentials = new NetworkCredential("username", "password");
 		// get response
 		WebResponse resp = req.GetResponse();
 		// get response stream
 		stream = resp.GetResponseStream();
+
 		StartCoroutine (GetFrame ());
+
+		return true;
 	}
 
+
+
 	IEnumerator GetFrame (){
+		//while (stream == null)
+		//	yield return null;
+		
 		Byte [] JpegData = new Byte[1000000]; //65536];
 
 		while(true) {
