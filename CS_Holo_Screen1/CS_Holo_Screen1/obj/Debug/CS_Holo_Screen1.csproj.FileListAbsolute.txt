@@ -8,3 +8,13 @@ C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Scr
 C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.csproj.GenerateResource.Cache
 C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.exe
 C:\Users\gries\Documents\Visual Studio 2015\Projects\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\CS_Holo_Screen1.exe.config
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\CS_Holo_Screen1.exe
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\CS_Holo_Screen1.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\bin\Debug\KeepAutomation.Barcode.Windows.dll
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.csprojResolveAssemblyReference.cache
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen.Form1.resources
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen.Properties.Resources.resources
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.csproj.GenerateResource.Cache
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.exe
+C:\Users\Neptun\Documents\StartHack17\start17\CS_Holo_Screen1\CS_Holo_Screen1\obj\Debug\CS_Holo_Screen1.pdb

@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using rtaNetworking.Streaming;
 using System.Net;
+using KeepAutomation.Barcode;
+using KeepAutomation.Barcode.Windows;
 
 namespace rtaVideoStreamer
 {
@@ -20,10 +22,12 @@ namespace rtaVideoStreamer
         public Form1()
         {
             InitializeComponent();
-            this.linkLabel1.Text = string.Format("http://{0}:8080", Environment.MachineName);
+            this.linkLabel1.Text = URL;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private String URL { get { return string.Format("http://{0}:8080", Environment.MachineName); } }
+
+                private void Form1_Load(object sender, EventArgs e)
         {
             _Server = new ImageStreamingServer();
         }
@@ -56,12 +60,14 @@ namespace rtaVideoStreamer
             //show QR-Code
             int timerstate = 0;
             qrtimer = new Timer();
-            qrtimer.Interval = 2000;
-            qrtimer.Tick += (object o, EventArgs args) => 
+            qrtimer.Interval = 5000;
+
+            Action<Object, EventArgs> timer_ticker = (object o, EventArgs args) => 
             {
                 if (timerstate == 0)
                 {
                     // show qr code
+                    makeQRcode();
                 }
                 else if (timerstate == 1)
                 {
@@ -72,16 +78,39 @@ namespace rtaVideoStreamer
                 else
                 {
                     // darken screen
-
+                    BrightnessControl.SetBrightness(0);
                     qrtimer.Stop();
                 }
                 timerstate++;
             };
+
+            qrtimer.Tick += new EventHandler(timer_ticker);
+            timer_ticker(null, null);
             qrtimer.Start();
         }
 
-       
+        private void makeQRcode()
+        {
+            BarCodeControl bcc = new BarCodeControl();
+            bcc.Symbology = KeepAutomation.Barcode.Symbology.QRCode;
+            bcc.CodeToEncode = URL;
+            bcc.X = 8;
+            bcc.Y = 8;
+            bcc.BottomMargin = 10;
+            bcc.LeftMargin = 10;
+            bcc.RightMargin = 10;
+            bcc.TopMargin = 10;
+            bcc.DisplayText = true;
+            bcc.ChecksumEnabled = true;
+            bcc.DisplayChecksum = true;
+            bcc.Orientation = KeepAutomation.Barcode.Orientation.Degree0;
+            bcc.BarcodeUnit = KeepAutomation.Barcode.BarcodeUnit.Pixel;
+            bcc.DPI = 72;
 
+            System.IO.MemoryStream fs = new System.IO.MemoryStream();
+            bcc.SaveAsImage(fs);
+            imgQR.Image = Image.FromStream(fs);
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -90,6 +119,7 @@ namespace rtaVideoStreamer
                 qrtimer.Stop();
                 qrtimer.Dispose();
             }
+            BrightnessControl.SetBrightness(70);
             //if (_Server.IsRunning)
             //{
             //    _Server.Dispose();
