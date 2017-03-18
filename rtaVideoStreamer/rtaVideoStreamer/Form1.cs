@@ -15,6 +15,7 @@ namespace rtaVideoStreamer
     {
 
         private ImageStreamingServer _Server;
+        private Timer qrtimer;
 
         public Form1()
         {
@@ -25,7 +26,6 @@ namespace rtaVideoStreamer
         private void Form1_Load(object sender, EventArgs e)
         {
             _Server = new ImageStreamingServer();
-            _Server.Start(8080);
         }
 
         private DateTime time = DateTime.MinValue;
@@ -43,6 +43,53 @@ namespace rtaVideoStreamer
 
         }
 
+       
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            _Server.Start(8080);
+
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
+
+
+            //show QR-Code
+            int timerstate = 0;
+            qrtimer = new Timer();
+            qrtimer.Interval = 2000;
+            qrtimer.Tick += (object o, EventArgs args) => 
+            {
+                if (timerstate == 0)
+                {
+                    // show tracker feature
+                }
+                else if (timerstate == 1)
+                {
+                    // darken screen
+                    qrtimer.Stop();
+                }
+                timerstate++;
+            };
+            qrtimer.Start();
+        }
+
+       
+
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if (qrtimer != null)
+            {
+                qrtimer.Stop();
+                qrtimer.Dispose();
+            }
+            //if (_Server.IsRunning)
+            //{
+            //    _Server.Dispose();
+            //}
+            //_Server.Stop();
+            Application.Exit();
+        }
     }
 
 
