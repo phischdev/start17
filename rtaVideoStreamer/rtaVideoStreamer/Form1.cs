@@ -25,7 +25,8 @@ namespace rtaVideoStreamer
             this.linkLabel1.Text = URL;
         }
 
-        private String URL { get { return string.Format("http://{0}:8080", Environment.MachineName); } }
+        private String IP { get { return System.Net.Dns.GetHostAddresses(System.Net.Dns.GetHostName())[0].MapToIPv4().ToString(); } }
+        private String URL { get { return string.Format("http://{0}:8080", IP); } }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -60,7 +61,7 @@ namespace rtaVideoStreamer
             //show QR-Code
             int timerstate = 0;
             qrtimer = new Timer();
-            qrtimer.Interval = 5000;
+            qrtimer.Interval = 7000;
 
             Action<Object, EventArgs> timer_ticker = (object o, EventArgs args) => 
             {

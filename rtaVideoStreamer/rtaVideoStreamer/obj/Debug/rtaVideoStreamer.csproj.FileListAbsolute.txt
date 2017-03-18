@@ -29,3 +29,4 @@ C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\
 C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.exe
 C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.pdb
 C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\bin\Debug\KeepAutomation.Barcode.Windows.dll
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\bin\Debug\rtaVideoStreamer.exe.config
