@@ -72,7 +72,7 @@ namespace rtaVideoStreamer
                 else if (timerstate == 1)
                 {
                     // show tracker feature
-                    Image tracker =  Properties.Resources.snacki;
+                    Image tracker =  Properties.Resources.highresSnacki;
                     imgQR.Image = tracker;
                 }
                 else

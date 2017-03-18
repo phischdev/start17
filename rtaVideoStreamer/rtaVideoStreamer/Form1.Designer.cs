@@ -69,17 +69,17 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sts});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 709);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 875);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(897, 25);
+            this.statusStrip1.Size = new System.Drawing.Size(1099, 25);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // sts
             // 
             this.sts.Name = "sts";
-            this.sts.Size = new System.Drawing.Size(877, 20);
+            this.sts.Size = new System.Drawing.Size(980, 20);
             this.sts.Spring = true;
             this.sts.Text = "Ready ..";
             this.sts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -110,7 +110,7 @@
             this.imgQR.Dock = System.Windows.Forms.DockStyle.Fill;
             this.imgQR.Location = new System.Drawing.Point(209, 3);
             this.imgQR.Name = "imgQR";
-            this.imgQR.Size = new System.Drawing.Size(685, 703);
+            this.imgQR.Size = new System.Drawing.Size(887, 869);
             this.imgQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imgQR.TabIndex = 5;
             this.imgQR.TabStop = false;
@@ -127,7 +127,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(897, 709);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1099, 875);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // panel1
@@ -139,7 +139,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 703);
+            this.panel1.Size = new System.Drawing.Size(200, 869);
             this.panel1.TabIndex = 0;
             // 
             // btnRestart
@@ -156,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(897, 734);
+            this.ClientSize = new System.Drawing.Size(1099, 900);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.statusStrip1);
             this.Margin = new System.Windows.Forms.Padding(4);
