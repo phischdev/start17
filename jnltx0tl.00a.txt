@@ -1,0 +1,548 @@
+﻿first init
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   2zokmwtj.yfv.txt
+#	new file:   5c1tcw1w.y3e.txt
+#	new file:   himalaya/Assets/Editor.meta
+#	new file:   himalaya/Assets/Editor/QCAR.meta
+#	new file:   himalaya/Assets/Editor/QCAR/ImageTargetTextures.meta
+#	new file:   himalaya/Assets/Editor/QCAR/ImageTargetTextures/Bilder.meta
+#	new file:   himalaya/Assets/Editor/QCAR/ImageTargetTextures/Bilder/tracker1_scaled.jpg
+#	new file:   himalaya/Assets/Editor/QCAR/ImageTargetTextures/Bilder/tracker1_scaled.jpg.meta
+#	new file:   himalaya/Assets/Editor/QCAR/ImageTargetTextures/Bilder/trackerl_scaled.jpg
+#	new file:   himalaya/Assets/Editor/QCAR/ImageTargetTextures/Bilder/trackerl_scaled.jpg.meta
+#	new file:   himalaya/Assets/Plugins.meta
+#	new file:   himalaya/Assets/Plugins/Android.meta
+#	new file:   himalaya/Assets/Plugins/Android/AndroidManifest.xml
+#	new file:   himalaya/Assets/Plugins/Android/AndroidManifest.xml.meta
+#	new file:   himalaya/Assets/Plugins/Android/Vuforia.jar
+#	new file:   himalaya/Assets/Plugins/Android/Vuforia.jar.meta
+#	new file:   himalaya/Assets/Plugins/Android/VuforiaUnityPlayer.jar
+#	new file:   himalaya/Assets/Plugins/Android/VuforiaUnityPlayer.jar.meta
+#	new file:   himalaya/Assets/Plugins/Android/libs.meta
+#	new file:   himalaya/Assets/Plugins/Android/libs/armeabi-v7a.meta
+#	new file:   himalaya/Assets/Plugins/Android/libs/armeabi-v7a/libVuforia.so
+#	new file:   himalaya/Assets/Plugins/Android/libs/armeabi-v7a/libVuforia.so.meta
+#	new file:   himalaya/Assets/Plugins/Android/libs/armeabi-v7a/libVuforiaUnityPlayer.so
+#	new file:   himalaya/Assets/Plugins/Android/libs/armeabi-v7a/libVuforiaUnityPlayer.so.meta
+#	new file:   himalaya/Assets/Plugins/Android/libs/armeabi-v7a/libVuforiaWrapper.so
+#	new file:   himalaya/Assets/Plugins/Android/libs/armeabi-v7a/libVuforiaWrapper.so.meta
+#	new file:   himalaya/Assets/Plugins/Android/src.meta
+#	new file:   himalaya/Assets/Plugins/Android/src/com.meta
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia.meta
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia/VuforiaUnityPlayer.meta
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia/VuforiaUnityPlayer/DebugLog.java
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia/VuforiaUnityPlayer/DebugLog.java.meta
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia/VuforiaUnityPlayer/OrientationUtility.java
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia/VuforiaUnityPlayer/OrientationUtility.java.meta
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia/VuforiaUnityPlayer/VuforiaInitializer.java
+#	new file:   himalaya/Assets/Plugins/Android/src/com/vuforia/VuforiaUnityPlayer/VuforiaInitializer.java.meta
+#	new file:   himalaya/Assets/Plugins/Editor.meta
+#	new file:   himalaya/Assets/Plugins/Editor/Unzip.js
+#	new file:   himalaya/Assets/Plugins/Editor/Unzip.js.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/Info.plist
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/Info.plist.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/MacOS.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/MacOS/VuforiaWrapper
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/MacOS/VuforiaWrapper.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/MacOS/VuforiaWrapper.signature
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/MacOS/VuforiaWrapper.signature.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/Resources.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/Resources/en.lproj.meta
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/Resources/en.lproj/InfoPlist.strings
+#	new file:   himalaya/Assets/Plugins/VuforiaWrapper.bundle/Contents/Resources/en.lproj/InfoPlist.strings.meta
+#	new file:   himalaya/Assets/Plugins/WSA.meta
+#	new file:   himalaya/Assets/Plugins/WSA/x64.meta
+#	new file:   himalaya/Assets/Plugins/WSA/x64/Vuforia.dll.meta
+#	new file:   himalaya/Assets/Plugins/WSA/x64/VuforiaWrapper.dll.meta
+#	new file:   himalaya/Assets/Plugins/WSA/x86.meta
+#	new file:   himalaya/Assets/Plugins/WSA/x86/Vuforia.dll.meta
+#	new file:   himalaya/Assets/Plugins/WSA/x86/VuforiaWrapper.dll.meta
+#	new file:   himalaya/Assets/Plugins/iOS.meta
+#	new file:   himalaya/Assets/Plugins/iOS/Vuforia.UnityExtensions.iOS.XML
+#	new file:   himalaya/Assets/Plugins/iOS/Vuforia.UnityExtensions.iOS.XML.meta
+#	new file:   himalaya/Assets/Plugins/iOS/Vuforia.UnityExtensions.iOS.dll.meta
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaNativeRendererController.mm
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaNativeRendererController.mm.meta
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaRenderDelegate.h
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaRenderDelegate.h.meta
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaRenderDelegate.mm
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaRenderDelegate.mm.meta
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaUnityPlayer.h
+#	new file:   himalaya/Assets/Plugins/iOS/VuforiaUnityPlayer.h.meta
+#	new file:   himalaya/Assets/Plugins/iOS/libVuforia.a
+#	new file:   himalaya/Assets/Plugins/iOS/libVuforia.a.meta
+#	new file:   himalaya/Assets/Plugins/iOS/libVuforiaUnityPlayer.a
+#	new file:   himalaya/Assets/Plugins/iOS/libVuforiaUnityPlayer.a.meta
+#	new file:   himalaya/Assets/Plugins/x64.meta
+#	new file:   himalaya/Assets/Plugins/x64/VuforiaWrapper.dll.meta
+#	new file:   himalaya/Assets/Plugins/x64/VuforiaWrapper.dll.signature
+#	new file:   himalaya/Assets/Plugins/x64/VuforiaWrapper.dll.signature.meta
+#	new file:   himalaya/Assets/Plugins/x64/VuforiaWrapper.exp
+#	new file:   himalaya/Assets/Plugins/x64/VuforiaWrapper.exp.meta
+#	new file:   himalaya/Assets/Plugins/x64/VuforiaWrapper.lib.meta
+#	new file:   himalaya/Assets/Plugins/x86.meta
+#	new file:   himalaya/Assets/Plugins/x86/VuforiaWrapper.dll.meta
+#	new file:   himalaya/Assets/Plugins/x86/VuforiaWrapper.dll.signature
+#	new file:   himalaya/Assets/Plugins/x86/VuforiaWrapper.dll.signature.meta
+#	new file:   himalaya/Assets/Plugins/x86/VuforiaWrapper.exp
+#	new file:   himalaya/Assets/Plugins/x86/VuforiaWrapper.exp.meta
+#	new file:   himalaya/Assets/Plugins/x86/VuforiaWrapper.lib.meta
+#	new file:   himalaya/Assets/Resources.meta
+#	new file:   himalaya/Assets/Resources/VuforiaConfiguration.asset
+#	new file:   himalaya/Assets/Resources/VuforiaConfiguration.asset.meta
+#	new file:   himalaya/Assets/StreamingAssets.meta
+#	new file:   himalaya/Assets/StreamingAssets/QCAR.meta
+#	new file:   himalaya/Assets/StreamingAssets/QCAR/Bilder.dat
+#	new file:   himalaya/Assets/StreamingAssets/QCAR/Bilder.dat.meta
+#	new file:   himalaya/Assets/StreamingAssets/QCAR/Bilder.xml
+#	new file:   himalaya/Assets/StreamingAssets/QCAR/Bilder.xml.meta
+#	new file:   himalaya/Assets/Vuforia.meta
+#	new file:   himalaya/Assets/Vuforia/Editor.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/ComponentFactoryStarter.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/ComponentFactoryStarter/ComponentFactoryStarter.cs
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/ComponentFactoryStarter/ComponentFactoryStarter.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/ExtensionImport.cs
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/ExtensionImport.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/PostProcessBuildPlayer.cs
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/PostProcessBuildPlayer.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/Unzipper.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/Unzipper/SharpZipLibUnzipper.cs
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/Unzipper/SharpZipLibUnzipper.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.XML
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.XML.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/VuforiaConfigurationEditor.cs
+#	new file:   himalaya/Assets/Vuforia/Editor/Scripts/VuforiaConfigurationEditor.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/VirtualButtonTextures.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/VirtualButtonTextures/VirtualButtonPreview.png
+#	new file:   himalaya/Assets/Vuforia/Editor/VirtualButtonTextures/VirtualButtonPreview.png.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/VirtualButtonTextures/VirtualButtonPreviewMaterial.mat
+#	new file:   himalaya/Assets/Vuforia/Editor/VirtualButtonTextures/VirtualButtonPreviewMaterial.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/WebcamProfiles.meta
+#	new file:   himalaya/Assets/Vuforia/Editor/WebcamProfiles/profiles.xml
+#	new file:   himalaya/Assets/Vuforia/Editor/WebcamProfiles/profiles.xml.meta
+#	new file:   himalaya/Assets/Vuforia/Fonts.meta
+#	new file:   himalaya/Assets/Vuforia/Fonts/SourceSansPro.ttf
+#	new file:   himalaya/Assets/Vuforia/Fonts/SourceSansPro.ttf.meta
+#	new file:   himalaya/Assets/Vuforia/Materials.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/CloudRecoTarget.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/CloudRecoTarget.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/ColoredLines.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/ColoredLines.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/DefaultTarget.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/DefaultTarget.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/DepthMask.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/DepthMask.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/EmulatorVideoBackground.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/EmulatorVideoBackground.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/StencilClipping.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/StencilClipping.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/UserDefinedTarget.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/UserDefinedTarget.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Materials/VideoMaterial.mat
+#	new file:   himalaya/Assets/Vuforia/Materials/VideoMaterial.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/ARCamera.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/ARCamera.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/CloudRecognition.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/CloudRecognition.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/CylinderTarget.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/CylinderTarget.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/ImageTarget.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/ImageTarget.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/MultiTarget.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/MultiTarget.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/ObjectTarget.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/ObjectTarget.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/SmartTerrain.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/SmartTerrain/Prop.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/SmartTerrain/Prop.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/SmartTerrain/SmartTerrain.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/SmartTerrain/SmartTerrain.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/TextRecognition.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/TextRecognition.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/UserDefinedTargetBuilder.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/UserDefinedTargetBuilder.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/VirtualButton.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/VirtualButton.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/VuMark.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/VuMark.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Prefabs/Word.prefab
+#	new file:   himalaya/Assets/Vuforia/Prefabs/Word.prefab.meta
+#	new file:   himalaya/Assets/Vuforia/Resources.meta
+#	new file:   himalaya/Assets/Vuforia/Resources/Materials.meta
+#	new file:   himalaya/Assets/Vuforia/Resources/Materials/DistortionStereoMaterial.mat
+#	new file:   himalaya/Assets/Vuforia/Resources/Materials/DistortionStereoMaterial.mat.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/CloudRecoBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/CloudRecoBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/CylinderTargetBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/CylinderTargetBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/DefaultSmartTerrainEventHandler.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/DefaultSmartTerrainEventHandler.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/GLErrorHandler.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/GLErrorHandler.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/HideExcessAreaBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/HideExcessAreaBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/ImageTargetBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/ImageTargetBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/AndroidUnityPlayer.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/AndroidUnityPlayer.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/ComponentFactoryStarterBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/ComponentFactoryStarterBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/IOSUnityPlayer.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/IOSUnityPlayer.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.XML
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.XML.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/VuforiaBehaviourComponentFactory.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/VuforiaBehaviourComponentFactory.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/WSAUnityPlayer.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/Internal/WSAUnityPlayer.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/MaskOutBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/MaskOutBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/MultiTargetBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/MultiTargetBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/ObjectTargetBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/ObjectTargetBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/PropBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/PropBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/ReconstructionBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/ReconstructionBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/ReconstructionFromTargetBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/ReconstructionFromTargetBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/SurfaceBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/SurfaceBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/TextRecoBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/TextRecoBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/TurnOffBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/TurnOffBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/TurnOffWordBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/TurnOffWordBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/UserDefinedTargetBuildingBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/UserDefinedTargetBuildingBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Utilities.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/Utilities/VRIntegrationHelper.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/Utilities/VRIntegrationHelper.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/VideoBackgroundBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/VideoBackgroundBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/VirtualButtonBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/VirtualButtonBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuMarkBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuMarkBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuforiaBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuforiaBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuforiaConfiguration.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuforiaConfiguration.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuforiaRuntimeInitialization.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/VuforiaRuntimeInitialization.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/WireframeBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/WireframeBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/WireframeTrackableEventHandler.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/WireframeTrackableEventHandler.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Scripts/WordBehaviour.cs
+#	new file:   himalaya/Assets/Vuforia/Scripts/WordBehaviour.cs.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/BrightTexture.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/BrightTexture.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/ClippingMask.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/ClippingMask.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/ColoredLines.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/ColoredLines.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/DepthMask.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/DepthMask.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/RenderVideoBackground.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/RenderVideoBackground.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/Text3D.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/Text3D.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/VertexLitWithZ.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/VertexLitWithZ.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Shaders/VideoBackground.shader
+#	new file:   himalaya/Assets/Vuforia/Shaders/VideoBackground.shader.meta
+#	new file:   himalaya/Assets/Vuforia/Textures.meta
+#	new file:   himalaya/Assets/Vuforia/Textures/CloudRecoTarget.png
+#	new file:   himalaya/Assets/Vuforia/Textures/CloudRecoTarget.png.meta
+#	new file:   himalaya/Assets/Vuforia/Textures/UserDefinedTarget.png
+#	new file:   himalaya/Assets/Vuforia/Textures/UserDefinedTarget.png.meta
+#	new file:   himalaya/Assets/Vuforia/Textures/VideoBackground.png
+#	new file:   himalaya/Assets/Vuforia/Textures/VideoBackground.png.meta
+#	new file:   himalaya/Assets/license_3rdpartynotice.txt
+#	new file:   himalaya/Assets/license_3rdpartynotice.txt.meta
+#	new file:   himalaya/Assets/link.xml
+#	new file:   himalaya/Assets/link.xml.meta
+#	new file:   himalaya/Assets/readme_SDK.txt
+#	new file:   himalaya/Assets/readme_SDK.txt.meta
+#	new file:   himalaya/Assets/scene1.unity
+#	new file:   himalaya/Assets/scene1.unity.meta
+#	new file:   himalaya/Library/AnnotationManager
+#	new file:   himalaya/Library/AssetImportState
+#	new file:   himalaya/Library/AssetServerCacheV3
+#	new file:   himalaya/Library/BuildPlayer.prefs
+#	new file:   himalaya/Library/BuildSettings.asset
+#	new file:   himalaya/Library/CurrentLayout.dwlt
+#	new file:   himalaya/Library/EditorUserBuildSettings.asset
+#	new file:   himalaya/Library/EditorUserSettings.asset
+#	new file:   himalaya/Library/InspectorExpandedItems.asset
+#	new file:   himalaya/Library/LastSceneManagerSetup.txt
+#	new file:   himalaya/Library/LibraryFormatVersion.txt
+#	new file:   himalaya/Library/assetDatabase3
+#	new file:   himalaya/Library/expandedItems
+#	new file:   himalaya/Library/metadata/00/00000000000000001000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000001000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000002000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000002000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000003000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000003000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000004000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000004000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000004100000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000004100000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000005000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000005000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000005100000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000005100000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000006000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000006000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000006100000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000006100000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000007000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000007000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000007100000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000007100000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000008000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000008000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00000000000000009000000000000000
+#	new file:   himalaya/Library/metadata/00/00000000000000009000000000000000.info
+#	new file:   himalaya/Library/metadata/00/0000000000000000a000000000000000
+#	new file:   himalaya/Library/metadata/00/0000000000000000a000000000000000.info
+#	new file:   himalaya/Library/metadata/00/0000000000000000a100000000000000
+#	new file:   himalaya/Library/metadata/00/0000000000000000a100000000000000.info
+#	new file:   himalaya/Library/metadata/00/0000000000000000b000000000000000
+#	new file:   himalaya/Library/metadata/00/0000000000000000b000000000000000.info
+#	new file:   himalaya/Library/metadata/00/0000000000000000c000000000000000
+#	new file:   himalaya/Library/metadata/00/0000000000000000c000000000000000.info
+#	new file:   himalaya/Library/metadata/00/00cb6c4c3cd30384187f2f2409c2f440
+#	new file:   himalaya/Library/metadata/00/00cb6c4c3cd30384187f2f2409c2f440.info
+#	new file:   himalaya/Library/metadata/03/032cee561cf09c345a4f2c780472f9ae
+#	new file:   himalaya/Library/metadata/03/032cee561cf09c345a4f2c780472f9ae.info
+#	new file:   himalaya/Library/metadata/06/0615fc51fad4d2e418f5687bb77cd6b6
+#	new file:   himalaya/Library/metadata/06/0615fc51fad4d2e418f5687bb77cd6b6.info
+#	new file:   himalaya/Library/metadata/07/07fc0664e6d78144a97209df6d0635ee
+#	new file:   himalaya/Library/metadata/07/07fc0664e6d78144a97209df6d0635ee.info
+#	new file:   himalaya/Library/metadata/08/08ee5468123d857438245e5c20090fde
+#	new file:   himalaya/Library/metadata/08/08ee5468123d857438245e5c20090fde.info
+#	new file:   himalaya/Library/metadata/09/09f37d38fa4044c459e9b81aa7789229
+#	new file:   himalaya/Library/metadata/09/09f37d38fa4044c459e9b81aa7789229.info
+#	new file:   himalaya/Library/metadata/0a/0a616267a7661f741935ff4b8ab161da
+#	new file:   himalaya/Library/metadata/0a/0a616267a7661f741935ff4b8ab161da.info
+#	new file:   himalaya/Library/metadata/0c/0cbee397431c7c449a0954e464c4075b
+#	new file:   himalaya/Library/metadata/0c/0cbee397431c7c449a0954e464c4075b.info
+#	new file:   himalaya/Library/metadata/0c/0cef8e57ac23a654ba2779e57933cc6f
+#	new file:   himalaya/Library/metadata/0c/0cef8e57ac23a654ba2779e57933cc6f.info
+#	new file:   himalaya/Library/metadata/0d/0d2315ffe32d5c44495eebc912994b4c
+#	new file:   himalaya/Library/metadata/0d/0d2315ffe32d5c44495eebc912994b4c.info
+#	new file:   himalaya/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+#	new file:   himalaya/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a.info
+#	new file:   himalaya/Library/metadata/12/1291d28f0c885a84d8c9a67bc6ca0c82
+#	new file:   himalaya/Library/metadata/12/1291d28f0c885a84d8c9a67bc6ca0c82.info
+#	new file:   himalaya/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+#	new file:   himalaya/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333.info
+#	new file:   himalaya/Library/metadata/15/150b49df89b9767469af26c62088da25
+#	new file:   himalaya/Library/metadata/15/150b49df89b9767469af26c62088da25.info
+#	new file:   himalaya/Library/metadata/15/155fecdc60088ce4ab778fc79efb144c
+#	new file:   himalaya/Library/metadata/15/155fecdc60088ce4ab778fc79efb144c.info
+#	new file:   himalaya/Library/metadata/16/162ece4b09459ba44b5cc46408a0886c
+#	new file:   himalaya/Library/metadata/16/162ece4b09459ba44b5cc46408a0886c.info
+#	new file:   himalaya/Library/metadata/16/16b19c6b6afb67942ac971f224649a45
+#	new file:   himalaya/Library/metadata/16/16b19c6b6afb67942ac971f224649a45.info
+#	new file:   himalaya/Library/metadata/16/16d0ac561db0caa4ea75bedbc45526bc
+#	new file:   himalaya/Library/metadata/16/16d0ac561db0caa4ea75bedbc45526bc.info
+#	new file:   himalaya/Library/metadata/19/19bde2ea5817fc34382b02ddfb97a17a
+#	new file:   himalaya/Library/metadata/19/19bde2ea5817fc34382b02ddfb97a17a.info
+#	new file:   himalaya/Library/metadata/1b/1b2d001c51171d449b4203bfe281d9bc
+#	new file:   himalaya/Library/metadata/1b/1b2d001c51171d449b4203bfe281d9bc.info
+#	new file:   himalaya/Library/metadata/1b/1be4b2a1f8203ec46b83e41b60cfa568
+#	new file:   himalaya/Library/metadata/1b/1be4b2a1f8203ec46b83e41b60cfa568.info
+#	new file:   himalaya/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+#	new file:   himalaya/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77.info
+#	new file:   himalaya/Library/metadata/1c/1ccb6ffd2066c224e91b26dd46e3aa1d
+#	new file:   himalaya/Library/metadata/1c/1ccb6ffd2066c224e91b26dd46e3aa1d.info
+#	new file:   himalaya/Library/metadata/1c/1ce7eb78425fb1540838bc9d5d95857a
+#	new file:   himalaya/Library/metadata/1c/1ce7eb78425fb1540838bc9d5d95857a.info
+#	new file:   himalaya/Library/metadata/1e/1e80c7d73da5d3b44b65c083aa2645b5
+#	new file:   himalaya/Library/metadata/1e/1e80c7d73da5d3b44b65c083aa2645b5.info
+#	new file:   himalaya/Library/metadata/1f/1fc81154ffbf15d4ea3672a67121cd1c
+#	new file:   himalaya/Library/metadata/1f/1fc81154ffbf15d4ea3672a67121cd1c.info
+#	new file:   himalaya/Library/metadata/20/2065f38df08cf45498b849cdfac2873f
+#	new file:   himalaya/Library/metadata/20/2065f38df08cf45498b849cdfac2873f.info
+#	new file:   himalaya/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+#	new file:   himalaya/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1.info
+#	new file:   himalaya/Library/metadata/25/2589f1ab00734ca0b34cdae4cd25618b
+#	new file:   himalaya/Library/metadata/25/2589f1ab00734ca0b34cdae4cd25618b.info
+#	new file:   himalaya/Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+#	new file:   himalaya/Library/metadata/26/2682a692a2be7e14e901a738c7806da0.info
+#	new file:   himalaya/Library/metadata/2a/2a725225d3d981b4182014a2e20b501c
+#	new file:   himalaya/Library/metadata/2a/2a725225d3d981b4182014a2e20b501c.info
+#	new file:   himalaya/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+#	new file:   himalaya/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+#	new file:   himalaya/Library/metadata/30/307433eba81a469ab1e2084d52d1a5a2
+#	new file:   himalaya/Library/metadata/30/307433eba81a469ab1e2084d52d1a5a2.info
+#	new file:   himalaya/Library/metadata/30/30b97d537113d0441889f1559f555128
+#	new file:   himalaya/Library/metadata/30/30b97d537113d0441889f1559f555128.info
+#	new file:   himalaya/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+#	new file:   himalaya/Library/metadata/32/32188fd89022c154c81befa2f0e00be0.info
+#	new file:   himalaya/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+#	new file:   himalaya/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9.info
+#	new file:   himalaya/Library/metadata/34/34ece8d93ce4a9e4fb65683a2a5d0cf9
+#	new file:   himalaya/Library/metadata/34/34ece8d93ce4a9e4fb65683a2a5d0cf9.info
+#	new file:   himalaya/himalaya.Editor.csproj
+#	new file:   himalaya/himalaya.csproj
+#	new file:   himalaya/himalaya.sln
+#
+# Untracked files:
+#	himalaya/Library/MonoManager.asset
+#	himalaya/Library/ProjectSettings.asset
+#	himalaya/Library/ScriptAssemblies/
+#	himalaya/Library/ScriptMapper
+#	himalaya/Library/ShaderCache.db
+#	himalaya/Library/ShaderCache/
+#	himalaya/Library/UnityAssemblies/
+#	himalaya/Library/metadata/35/
+#	himalaya/Library/metadata/36/
+#	himalaya/Library/metadata/37/
+#	himalaya/Library/metadata/38/
+#	himalaya/Library/metadata/3c/
+#	himalaya/Library/metadata/3d/
+#	himalaya/Library/metadata/3f/
+#	himalaya/Library/metadata/41/
+#	himalaya/Library/metadata/43/
+#	himalaya/Library/metadata/44/
+#	himalaya/Library/metadata/45/
+#	himalaya/Library/metadata/47/
+#	himalaya/Library/metadata/49/
+#	himalaya/Library/metadata/4b/
+#	himalaya/Library/metadata/4c/
+#	himalaya/Library/metadata/4d/
+#	himalaya/Library/metadata/4f/
+#	himalaya/Library/metadata/51/
+#	himalaya/Library/metadata/52/
+#	himalaya/Library/metadata/53/
+#	himalaya/Library/metadata/55/
+#	himalaya/Library/metadata/57/
+#	himalaya/Library/metadata/58/
+#	himalaya/Library/metadata/5a/
+#	himalaya/Library/metadata/5b/
+#	himalaya/Library/metadata/5c/
+#	himalaya/Library/metadata/5d/
+#	himalaya/Library/metadata/5f/
+#	himalaya/Library/metadata/60/
+#	himalaya/Library/metadata/63/
+#	himalaya/Library/metadata/65/
+#	himalaya/Library/metadata/68/
+#	himalaya/Library/metadata/69/
+#	himalaya/Library/metadata/6a/
+#	himalaya/Library/metadata/6c/
+#	himalaya/Library/metadata/6e/
+#	himalaya/Library/metadata/70/
+#	himalaya/Library/metadata/72/
+#	himalaya/Library/metadata/73/
+#	himalaya/Library/metadata/75/
+#	himalaya/Library/metadata/77/
+#	himalaya/Library/metadata/78/
+#	himalaya/Library/metadata/79/
+#	himalaya/Library/metadata/7a/
+#	himalaya/Library/metadata/7b/
+#	himalaya/Library/metadata/7c/
+#	himalaya/Library/metadata/7d/
+#	himalaya/Library/metadata/7e/
+#	himalaya/Library/metadata/80/
+#	himalaya/Library/metadata/82/
+#	himalaya/Library/metadata/83/
+#	himalaya/Library/metadata/84/
+#	himalaya/Library/metadata/85/
+#	himalaya/Library/metadata/86/
+#	himalaya/Library/metadata/87/
+#	himalaya/Library/metadata/88/
+#	himalaya/Library/metadata/8a/
+#	himalaya/Library/metadata/8b/
+#	himalaya/Library/metadata/8c/
+#	himalaya/Library/metadata/8d/
+#	himalaya/Library/metadata/8e/
+#	himalaya/Library/metadata/8f/
+#	himalaya/Library/metadata/90/
+#	himalaya/Library/metadata/92/
+#	himalaya/Library/metadata/96/
+#	himalaya/Library/metadata/97/
+#	himalaya/Library/metadata/99/
+#	himalaya/Library/metadata/a5/
+#	himalaya/Library/metadata/a8/
+#	himalaya/Library/metadata/ad/
+#	himalaya/Library/metadata/ae/
+#	himalaya/Library/metadata/af/
+#	himalaya/Library/metadata/b2/
+#	himalaya/Library/metadata/b6/
+#	himalaya/Library/metadata/b7/
+#	himalaya/Library/metadata/b8/
+#	himalaya/Library/metadata/ba/
+#	himalaya/Library/metadata/bc/
+#	himalaya/Library/metadata/bd/
+#	himalaya/Library/metadata/bf/
+#	himalaya/Library/metadata/c1/
+#	himalaya/Library/metadata/c2/
+#	himalaya/Library/metadata/c3/
+#	himalaya/Library/metadata/c4/
+#	himalaya/Library/metadata/ca/
+#	himalaya/Library/metadata/cb/
+#	himalaya/Library/metadata/d0/
+#	himalaya/Library/metadata/d1/
+#	himalaya/Library/metadata/d2/
+#	himalaya/Library/metadata/d3/
+#	himalaya/Library/metadata/d4/
+#	himalaya/Library/metadata/d6/
+#	himalaya/Library/metadata/d7/
+#	himalaya/Library/metadata/d8/
+#	himalaya/Library/metadata/d9/
+#	himalaya/Library/metadata/dc/
+#	himalaya/Library/metadata/dd/
+#	himalaya/Library/metadata/de/
+#	himalaya/Library/metadata/df/
+#	himalaya/Library/metadata/e0/
+#	himalaya/Library/metadata/e2/
+#	himalaya/Library/metadata/e3/
+#	himalaya/Library/metadata/e4/
+#	himalaya/Library/metadata/e5/
+#	himalaya/Library/metadata/e6/
+#	himalaya/Library/metadata/e7/
+#	himalaya/Library/metadata/ee/
+#	himalaya/Library/metadata/f2/
+#	himalaya/Library/metadata/f4/
+#	himalaya/Library/metadata/f5/
+#	himalaya/Library/metadata/f6/
+#	himalaya/Library/metadata/f7/
+#	himalaya/Library/metadata/f8/
+#	himalaya/Library/metadata/f9/
+#	himalaya/Library/metadata/fb/
+#	himalaya/Library/metadata/fc/
+#	himalaya/Library/metadata/fe/
+#	himalaya/ProjectSettings/
+#	himalaya/QCAR/
+#	r0kacgwb.m2z.txt
+#	u5dlhsqe.csh.txt
+#	urabhv1p.lek.txt
+#
+
