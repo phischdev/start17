@@ -80,7 +80,7 @@
             // sts
             // 
             this.sts.Name = "sts";
-            this.sts.Size = new System.Drawing.Size(616, 20);
+            this.sts.Size = new System.Drawing.Size(357, 20);
             this.sts.Spring = true;
             this.sts.Text = "Ready ..";
             this.sts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,7 +115,6 @@
             // 
             this.imgQR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.imgQR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imgQR.Image = global::rtaVideoStreamer.Properties.Resources.snacki;
             this.imgQR.Location = new System.Drawing.Point(209, 3);
             this.imgQR.Name = "imgQR";
             this.imgQR.Size = new System.Drawing.Size(318, 408);
