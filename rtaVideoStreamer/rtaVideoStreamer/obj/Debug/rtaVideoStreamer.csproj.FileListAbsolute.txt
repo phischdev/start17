@@ -18,3 +18,13 @@ C:\Users\patri\Desktop\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStrea
 C:\Users\patri\Desktop\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.Form1.resources
 C:\Users\patri\Desktop\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.Properties.Resources.resources
 C:\Users\patri\Desktop\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.csproj.GenerateResource.Cache
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\bin\Debug\rtaVideoStreamer.exe
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\bin\Debug\rtaVideoStreamer.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\bin\Debug\rtaNetworking.Streaming.dll
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\bin\Debug\rtaNetworking.Streaming.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.csprojResolveAssemblyReference.cache
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.Form1.resources
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.Properties.Resources.resources
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.csproj.GenerateResource.Cache
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.exe
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaVideoStreamer\obj\Debug\rtaVideoStreamer.pdb

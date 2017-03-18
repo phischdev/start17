@@ -8,3 +8,8 @@ C:\Users\patri\Desktop\rtaVideoStreamer\rtaNetworking.Streaming\bin\Debug\rtaNet
 C:\Users\patri\Desktop\rtaVideoStreamer\rtaNetworking.Streaming\obj\Debug\rtaNetworking.Streaming.csprojResolveAssemblyReference.cache
 C:\Users\patri\Desktop\rtaVideoStreamer\rtaNetworking.Streaming\obj\Debug\rtaNetworking.Streaming.dll
 C:\Users\patri\Desktop\rtaVideoStreamer\rtaNetworking.Streaming\obj\Debug\rtaNetworking.Streaming.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaNetworking.Streaming\bin\Debug\rtaNetworking.Streaming.dll
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaNetworking.Streaming\bin\Debug\rtaNetworking.Streaming.pdb
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaNetworking.Streaming\obj\Debug\rtaNetworking.Streaming.csprojResolveAssemblyReference.cache
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaNetworking.Streaming\obj\Debug\rtaNetworking.Streaming.dll
+C:\Users\Neptun\Documents\StartHack17\start17\rtaVideoStreamer\rtaNetworking.Streaming\obj\Debug\rtaNetworking.Streaming.pdb

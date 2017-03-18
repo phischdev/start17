@@ -28,7 +28,7 @@ namespace rtaNetworking.Streaming
         private List<Socket> _Clients;
         private Thread _Thread;
 
-        public ImageStreamingServer():this(Screen.Snapshots(600,450,true))
+        public ImageStreamingServer():this(Screen.Snapshots())
         {
 
         }
