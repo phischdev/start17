@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="himalaya.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WebStream.cs">
+    <Files>
+      <File FileName="Assets\WebStream.cs" Line="43" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Assets\WebStream.cs" line="50" column="1" />
+      <Breakpoint enabled="false" file="C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Assets\WebStream.cs" line="44" column="1" />
+      <Breakpoint enabled="false" file="C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Assets\WebStream.cs" line="30" column="1" />
+      <Breakpoint enabled="false" file="C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Assets\WebStream.cs" line="17" column="1" />
+      <Breakpoint enabled="false" file="C:\Users\Neptun\Documents\StartHack17\start17\himalaya\Assets\WebStream.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
