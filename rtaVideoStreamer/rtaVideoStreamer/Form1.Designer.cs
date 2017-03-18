@@ -37,8 +37,12 @@
             this.btnStart = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.imgQR = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgQR)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -51,7 +55,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel1.Location = new System.Drawing.Point(16, 30);
+            this.linkLabel1.Location = new System.Drawing.Point(18, 18);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(140, 17);
@@ -66,10 +70,10 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sts,
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 561);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 414);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(939, 25);
+            this.statusStrip1.Size = new System.Drawing.Size(530, 25);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -89,9 +93,9 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(19, 63);
+            this.btnStart.Location = new System.Drawing.Point(21, 58);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(120, 71);
+            this.btnStart.Size = new System.Drawing.Size(137, 71);
             this.btnStart.TabIndex = 3;
             this.btnStart.Text = "Start Streaming";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -99,9 +103,9 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(19, 158);
+            this.btnClose.Location = new System.Drawing.Point(21, 146);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(120, 71);
+            this.btnClose.Size = new System.Drawing.Size(137, 71);
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "Close Program";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -110,22 +114,48 @@
             // imgQR
             // 
             this.imgQR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imgQR.Location = new System.Drawing.Point(411, 158);
+            this.imgQR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.imgQR.Image = global::rtaVideoStreamer.Properties.Resources.snacki;
+            this.imgQR.Location = new System.Drawing.Point(209, 3);
             this.imgQR.Name = "imgQR";
-            this.imgQR.Size = new System.Drawing.Size(380, 332);
+            this.imgQR.Size = new System.Drawing.Size(318, 408);
+            this.imgQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imgQR.TabIndex = 5;
             this.imgQR.TabStop = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 206F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.imgQR, 1, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(530, 414);
+            this.tableLayoutPanel1.TabIndex = 6;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.linkLabel1);
+            this.panel1.Controls.Add(this.btnStart);
+            this.panel1.Controls.Add(this.btnClose);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 408);
+            this.panel1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(939, 586);
-            this.Controls.Add(this.imgQR);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnStart);
+            this.ClientSize = new System.Drawing.Size(530, 439);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.linkLabel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -134,6 +164,9 @@
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgQR)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,6 +182,8 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.PictureBox imgQR;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

@@ -61,11 +61,18 @@ namespace rtaVideoStreamer
             {
                 if (timerstate == 0)
                 {
-                    // show tracker feature
+                    // show qr code
                 }
                 else if (timerstate == 1)
                 {
+                    // show tracker feature
+                    Image tracker =  Properties.Resources.snacki;
+                    imgQR.Image = tracker;
+                }
+                else
+                {
                     // darken screen
+
                     qrtimer.Stop();
                 }
                 timerstate++;
