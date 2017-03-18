@@ -94,13 +94,13 @@ namespace rtaVideoStreamer
             BarCodeControl bcc = new BarCodeControl();
             bcc.Symbology = KeepAutomation.Barcode.Symbology.QRCode;
             bcc.CodeToEncode = URL;
-            bcc.X = 8;
-            bcc.Y = 8;
+            bcc.X = 15;
+            bcc.Y = 15;
             bcc.BottomMargin = 10;
             bcc.LeftMargin = 10;
             bcc.RightMargin = 10;
             bcc.TopMargin = 10;
-            bcc.DisplayText = true;
+            //bcc.DisplayText = true;
             bcc.ChecksumEnabled = true;
             bcc.DisplayChecksum = true;
             bcc.Orientation = KeepAutomation.Barcode.Orientation.Degree0;
